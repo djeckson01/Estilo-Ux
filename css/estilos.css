@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap'); 
+ @import url('../fonts/TradeWinds-Regular.ttf'); 
+ 
+ /* reset de pagina / propriedades */
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#cabecalho {
+    /* border: 1px solid black; */
+    color: white;
+    background: grey;
+    display: inline inline-block;
+
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+body {
+    background-color: #ebebeb;
+    font-family: 'Trade Winds', Verdana, Tahoma, sans-serif;
+    font-weight: 100;
+    color: grey;
+}
+
+h1 {
+    vertical-align: middle;
+    display: inline-block;
+    /* border: 1px solid white; */
+    /* width: 20%; */
+    /* height: 200px; */
+    /* color: white; */
+}
+
+#menu {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+    /* border: 1px solid white; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+a {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    /* width: 100px; */
+    text-align: center;
+    /* height: 20px; */
+    /* border: 1px solid white; */
+}
+
+/* p {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background: salmon;
+    color: white;
+    border: 5px solid black;
+    /* box-sizing: border-box; */
+
+/* margin: 5%; */
+
+/* } */
+
+#corpo-documento {
+    /* background-color: slateblue; */
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+
+}
+
+#conteudo {
+    background-color: white;
+    margin-right: -4px;
+    width: 70%;
+    /*centralização*/
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#conteudo p {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    color: #858585;
+}
+
+#conteudo h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    /* font-weight: 200;
+    text-transform: uppercase */
+}
+
+#barra-lateral {
+    vertical-align: top;
+    background-color: #efefef;
+    width: 20%;
+    /*centralização*/
+    display: inline-block;
+    /* margin-left: 15%; */
+    margin-right: -4px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.box-side h2 {
+    text-align: center;
+    /* background-color: white; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-bottom: 1px solid #efefef;
+    text-transform: uppercase;
+    font-weight: 200;
+
+}
+
+#barra-lateral input {
+    height: 30px;
+    margin-left: 20px;
+    width: 130px;
+    border: 1px solid#efefef;
+
+}
+
+#barra-lateral button {
+    height: 30px;
+    margin-left: 20px;
+    width: 100px;
+    border: 1px solid#efefef;
+    background-color: #727272;
+    color: white;
+
+}
+
+.box-side {
+    background: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.box-side ul li {
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.box-side p{
+    border: 1px solid purple;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 25px;
+    
+    text-align: center;
+    background:white;
+    
+
+
+}
+
+.box-side #email-novidade {
+    width: 100%;
+    margin-left: 0;
+    background: white;
+
+}
+
+#lapis {
+    width: 100%;
+
+}
+
+#posts-anteriores {
+    /* margin-left: 30px; */
+    color: #858585;
+    /* margin-top: 20px; */
+    background-color: white;
+}
+
+#posts-anteriores p {
+    text-align: left;
+    background: white;
+}
